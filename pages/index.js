@@ -1,25 +1,15 @@
-import { serverSideTranslations } from 'next-i18next/serverSideTranslations';
 import Home from '../components/Home';
 
-export default function Index({ category, query }) {
-  console.log(query);
+export const getServerSideProps = ({ query }) => ({
+  props: query,
+});
+
+export default function Index({ city, region, country }) {
   return (
     <div>
-      <Home category={category} />
+      <h1>
+        Hello this is ${city} from ${region} with ${country}
+      </h1>
     </div>
   );
-}
-
-export async function getServerSideProps({ locale, query }) {
-  const category = await fetch(`${process.env.SITEURL}/api/category`).then(
-    (res) => res.json()
-  );
-
-  return {
-    props: {
-      ...(await serverSideTranslations(locale)),
-      category,
-      query,
-    },
-  };
 }
