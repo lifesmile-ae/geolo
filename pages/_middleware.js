@@ -16,5 +16,5 @@ export async function middleware(req, res) {
   url.searchParams.set('city', city);
   url.searchParams.set('region', region);
 
-  return NextResponse.rewrite(url);
+  return NextResponse.rewrite(`https://testme-seven.vercel.app/` + url);
 }
