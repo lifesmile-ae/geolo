@@ -1,0 +1,62 @@
+[
+  {
+    "title": "T-Shirt",
+    "slug": "t-shirt",
+    "pic": "cat-1-1.jpg"
+  },
+  {
+    "title": "Shoes",
+    "slug": "shoes",
+    "pic": "cat-2-1.jpg"
+  },
+  {
+    "title": "Camera",
+    "slug": "camera",
+    "pic": "cat-3-1.jpg"
+  },
+  {
+    "title": "Valise",
+    "slug": "valise",
+    "pic": "cat-4-1.jpg"
+  },
+  {
+    "title": "Jewelry",
+    "slug": "jewelry",
+    "pic": "cat-5-1.jpg"
+  },
+  {
+    "title": "Earphone",
+    "slug": "earphone",
+    "pic": "cat-6-1.jpg"
+  },
+  {
+    "title": "Gifts",
+    "slug": "gifts",
+    "pic": "cat-7-1.jpg"
+  },
+  {
+    "title": "Kids",
+    "slug": "kids",
+    "pic": "cat-8-1.jpg"
+  },
+  {
+    "title": "Sports",
+    "slug": "sports",
+    "pic": "cat-9-1.jpg"
+  },
+  {
+    "title": "Beauty",
+    "slug": "beauty",
+    "pic": "cat-10-1.jpg"
+  },
+  {
+    "title": "Accessories",
+    "slug": "accessories",
+    "pic": "cat-11-1.jpg"
+  },
+  {
+    "title": "Grocessory",
+    "slug": "grocessory",
+    "pic": "cat-11-1.jpg"
+  }
+]

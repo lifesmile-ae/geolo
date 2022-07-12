@@ -1,0 +1,135 @@
+[
+  {
+    "id": 1,
+    "name": "Custom Fit Soft-Touch Polo",
+    "slug": "i-am-product",
+    "badge": "featured",
+    "sku": "16df161",
+    "ratings": 4,
+    "reviews": 4,
+    "discount": 20,
+    "discountDuration": null,
+    "totalSale": 137,
+    "itemCode": "FLCM-20",
+    "attributes": [
+      {
+        "Guarantee": "1 Year"
+      },
+      {
+        "Model": "Skysuite 320"
+      },
+      {
+        "Color": "Black"
+      },
+      {
+        "Size": "Large, Small"
+      },
+      {
+        "Series": "R Series"
+      }
+    ],
+    "categories": [
+      {
+        "name": "men",
+        "slug": "men"
+      },
+      {
+        "name": "pots",
+        "slug": "pots"
+      }
+    ],
+    "tags": ["belt", "men", "leather"],
+    "thumbs": [
+      "1-800x900.jpg",
+      "2-800x900.jpg",
+      "3-800x900.jpg",
+      "4-800x900.jpg",
+      "4-800x900.jpg"
+    ],
+    "previewImages": [
+      "1-800x900.jpg",
+      "2-800x900.jpg",
+      "3-800x900.jpg",
+      "4-800x900.jpg",
+      "4-800x900.jpg"
+    ],
+    "excerpt": "Lorem ipsum dolor sit amet conse ctetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.",
+    "description": "Lorem ipsum dolor sit amet conse ctetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum.",
+    "shortdescription": "<li>Ultrices eros in cursus turpis massa cursus mattis.</li><li>Volutpat ac tincidunt vitae semper quis lectus.</li><li>Aliquam id diam maecenas ultricies mi eget mauris.</li>",
+    "price": 57,
+    "stock": 5,
+    "variationtype": "multi",
+    "variations": [
+      {
+        "id": 1,
+        "title": "Yellow",
+        "color": {
+          "name": "yellow",
+          "thumbs": [
+            "1-800x900.jpg",
+            "2-800x900.jpg",
+            "3-800x900.jpg",
+            "4-800x900.jpg",
+            "4-800x900.jpg"
+          ],
+          "code": "#ffcc01"
+        },
+        "sizes": [
+          {
+            "name": "16",
+            "stock": 3,
+            "price": 42,
+            "itemcode": "Yellow-16"
+          },
+          {
+            "name": "20",
+            "stock": 0,
+            "price": 43,
+            "itemcode": "Yellow-20"
+          },
+          {
+            "name": "24",
+            "stock": 5,
+            "price": 53,
+            "itemcode": "Yellow-24"
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "title": "Pink",
+        "color": {
+          "name": "pink",
+          "thumbs": [
+            "a-800x900.jpg",
+            "b-800x900.jpg",
+            "c-800x900.jpg",
+            "d-800x900.jpg",
+            "a-800x900.jpg"
+          ],
+          "code": "#ca6d00"
+        },
+        "sizes": [
+          {
+            "name": "16",
+            "stock": 6,
+            "price": 72,
+            "itemcode": "Pink-16"
+          },
+          {
+            "name": "20",
+            "stock": 26,
+            "price": 52,
+            "itemcode": "Pink-20"
+          },
+          {
+            "name": "24",
+            "stock": 23,
+            "price": 62,
+            "itemcode": "Pink-24"
+          }
+        ]
+      }
+    ]
+  }
+]

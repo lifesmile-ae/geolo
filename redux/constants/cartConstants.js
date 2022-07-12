@@ -1,0 +1,13 @@
+export const SHOW_CART_SIDEBAR = 'SHOW_CART_SIDEBAR';
+export const HIDE_CART_SIDEBAR = 'HIDE_CART_SIDEBAR';
+
+export const CART_ADD_ITEM = 'CART_ADD_ITEM';
+export const CART_REMOVE_ITEM = 'CART_REMOVE_ITEM';
+
+export const CART_REMOVE_QTY = 'CART_REMOVE_QTY';
+export const CART_ADD_QTY = 'CART_ADD_QTY';
+
+export const SET_CART_VALUE = 'SET_CART_VALUE';
+export const REMOVE_CART_VALUE = 'REMOVE_CART_VALUE';
+
+export const ALL_CART_EMPTY = 'ALL_CART_EMPTY';
