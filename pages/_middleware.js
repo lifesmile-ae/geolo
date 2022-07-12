@@ -16,8 +16,5 @@ export async function middleware(req, res) {
   url.searchParams.set('city', city);
   url.searchParams.set('region', region);
 
-  const response = NextResponse.next();
-  response.cookies.set('userLocation', url);
-
-  return response;
+  return NextResponse.rewrite(JSON.parse(url));
 }
