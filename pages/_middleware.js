@@ -1,6 +1,9 @@
 import { NextRequest, NextResponse } from 'next/server';
 
 // run only on homepage
+export const config = {
+  matcher: '/',
+};
 
 export async function middleware(req, res) {
   const { nextUrl: url, geo } = req;
@@ -13,5 +16,5 @@ export async function middleware(req, res) {
   url.searchParams.set('city', city);
   url.searchParams.set('region', region);
 
-  return NextResponse.rewrite(url);
+  return NextResponse.next().cookie('country', country);
 }

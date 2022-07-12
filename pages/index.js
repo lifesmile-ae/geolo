@@ -1,18 +1,25 @@
+import { serverSideTranslations } from 'next-i18next/serverSideTranslations';
 import Home from '../components/Home';
-import { useRouter } from 'next/router';
+import { getCookie } from 'cookies-next';
 
-export const getServerSideProps = ({ query }) => ({
-  props: query,
-});
-
-export default function Index({ city, region, country }) {
-  const router = useRouter();
-  console.log(router.query);
+export default function Index({ category }) {
+  console.log(getCookie('country'));
   return (
     <div>
-      <h1>
-        Hello this is ${city} from ${region} with ${country}
-      </h1>
+      <Home category={category} />
     </div>
   );
+}
+
+export async function getServerSideProps({ locale }) {
+  const category = await fetch(`${process.env.SITEURL}/api/category`).then(
+    (res) => res.json()
+  );
+
+  return {
+    props: {
+      ...(await serverSideTranslations(locale)),
+      category,
+    },
+  };
 }
