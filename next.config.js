@@ -10,7 +10,7 @@ module.exports = {
     domains: ['flagcdn.com', 'res.cloudinary.com', 'i.imgur.com'],
   },
   env: {
-    SITEURL: 'https://lifesmile.ae',
+    SITEURL: 'https://testme-seven.vercel.app',
     MONGODB_URI:
       'mongodb+srv://lifesmile:Lm2pibyR888szMG@cluster0.dpayg.mongodb.net/lifesmile?retryWrites=true&w=majority',
     SMTP_HOST: 'smtp.mailtrap.io',
